@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable [name] and set the value to 'Dane'. Then wrote and if/else statement saying if [name] 
+// equal in value and type to 'Mary' then the console.log will return the string 
+// 'Hi, Mary'. If if is not equal then the console.log will return 'How do you do?' 
+//We will console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared our variable [secret] to the yet unknown value of the if/else statement. Inside the if/else we declared a variable
+// [code] and assigned it the value of 123. In the statement, if [code] is equal in value and type to 123
+// then [secret] will return 'super' to the [secret] variable and mulitply the value of [code] by 2, being 246. If [code]'s multiplied number is greater than 250
+// then [secret] will return 'duper'. Console.log would return 'super'.
 
 //CODE
 /*
@@ -70,11 +70,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We've declared the variable [isStudent] and assigned it a boolean value of true, declared variable [age] and assigned it 34,  
+// and declared variable [zip] and assigned 55407. The following if/else if statement says if the variables [isStudent] is true and the [zip] is greater 
+// than 80000 the console.log will return the string 'You're a student on the West Coast!'. If that wasn't correct the code would move to the next statement to evaluate. 
+// If [isStudent] is false or the [age] is less than 30 the console.log would return 'What are your hobbies?'. If neither of those values are true it'll evaluate the next statement.
+// If only [isStudent] is true concole.log will return the string 'Welcome to Prime!'. If none of the values in the statements are correct console.log will
+// return 'How about the weather?'. If I were the [isStudent] console.log would return 'Welcome to Prime!'.
 
+
+// 
 //CODE
 /*
 let isStudent = true;
