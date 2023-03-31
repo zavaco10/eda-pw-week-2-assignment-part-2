@@ -134,8 +134,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+FIX-let colorOne = 'red'; //colorOne needs to be set to 'blue'
+FIX-let colorTwo = 'blue';  //colorTwo needs to be set to 'red'
 let mix = true;
 
 if (mix === true) {
@@ -151,7 +151,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+FIX-if (temp > 39 || time >= 4) {   //the pipes '||' need to be changed to '&&'. pipes is an 'or' operator, && is the 'and' operator
   console.log('throw away the food!');
 }
 */
@@ -164,7 +164,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+FIX-if(minAge <= age) {   //variables age and minAge locations need to be switched. and the less than operator needs to be changed to a greater than operator.
   console.log('no entry');
 } else {
   console.log('enter');
