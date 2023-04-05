@@ -136,10 +136,13 @@ if (number >= 2) {
 /*
 FIX-let colorOne = 'red'; //colorOne needs to be set to 'blue'
 FIX-let colorTwo = 'blue';  //colorTwo needs to be set to 'red'
+FIX-colorTwo = 'purple';
+
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  FIX-colorTwo = 'purple';
 }
 */
 
